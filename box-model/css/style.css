@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: aqua;
+    
+}
+.content{
+    width: 400px;
+    height: 400px;
+    border: 20px solid black;
+    padding: 70px 50px 40px 50px;
+    background-color: brown;
+    font-size: 25px;
+    margin: 100px;
+    /* border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-right-style: double; */
+    border-style: dotted double dashed solid;
+}
+.image img{
+    width: 800px;
+    height: 600px;
+    border: 20px solid black;
+    background-color: aquamarine;
+    margin: 100px;
+    margin: 30px 80px;
+    max-width: 100%;
+    padding: 50px 50px 50px 50px;
+}
+.aj1{
+    margin: 150px;
+    filter: brightness(120%)
+    /* filter: brightness(120%); */
+    /* filter: contrast(120%); */
+    /* filter: drop-shadow(10px 15px 10px ); */
+    /* filter: grayscale(100%); */
+    /* filter: hue-rotate(180deg); */
+    /* filter: invert(100%); */
+    /* filter: none; */
+    /* filter: opacity(40%); */
+    /* filter: saturate(120%); */
+    /* filter: sepia(100%); */  
+}
+.aj2{
+    margin: 150px;
+    filter: blur(10px);
+
+}
+.aj3{
+    margin: 150px;
+    filter: contrast(150%);
+}
+.aj4{
+    margin: 150px;
+    filter: drop-shadow(10px 15px 10px);
+}
+.aj5{
+    margin: 150px;
+    filter: grayscale(100%);
+}
+.aj6{
+    margin: 150px;
+    filter: hue-rotate(180deg);
+}
+.aj7{
+    margin: 150px;
+    filter: invert(100%);
+}
+.aj8{
+    margin: 150px;
+    filter: none;
+}
+.aj9{
+    margin: 150px;
+    filter: opacity(50%);
+}
+.aj10{
+    margin: 150px;
+    filter: sepia(100%)
+}
+.aj2{
+    margin: 150px;
+    filter: sepia(50%);
+}
+.p1{
+    visibility: visible;
+}
+.p2{
+    visibility: hidden;
+}
+.tr{
+    visibility: collapse;
+}
+.table{
+    visibility: collapse;
+}
+.collapse{
+    visibility: collapse;
+}
+.cursor{
+    margin: 0px 0px 0px 100px;
+}
+.alias {
+    cursor: alias;
+    border: 1px solid black;
+    width: 5%;
+}
+.all-scroll {
+    cursor: all-scroll;
+    border: 1px solid black;
+    width: 5%;
+}
+.auto {
+    cursor: auto;
+    border: 1px solid black;
+    width: 5%;
+}
+.cell {
+    cursor: cell;
+    border: 1px solid black;
+    width: 5%;
+}
+.col-resize {
+    cursor: col-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.context-menu {
+    cursor: context-menu;
+    border: 1px solid black;
+    width: 5%;
+}
+.copy {
+    cursor: copy;
+    border: 1px solid black;
+    width: 5%;
+}
+.crosshair {
+    cursor: crosshair;
+    border: 1px solid black;
+    width: 5%;
+}
+.default {
+    cursor: default;
+    border: 1px solid black;
+    width: 5%;
+}
+.e-resize {
+    cursor: e-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.ew-resize {
+    cursor: ew-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.grab {
+    cursor: -webkit-grab; cursor: grab;
+    border: 1px solid black;
+    width: 5%;
+}
+.grabbing {
+    cursor: -webkit-grabbing; cursor: grabbing;
+    border: 1px solid black;
+    width: 5%;
+}
+.help {
+    cursor: help;
+    border: 1px solid black;
+    width: 5%;
+}
+.move {
+    cursor: move;
+    border: 1px solid black;
+    width: 5%;
+}
+.n-resize {
+    cursor: n-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.ne-resize {
+    cursor: ne-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.nesw-resize {
+    cursor: nesw-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.ns-resize {
+    cursor: ns-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.nw-resize {
+    cursor: nw-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.nwse-resize {
+    cursor: nwse-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.no-drop {
+    cursor: no-drop;
+    border: 1px solid black;
+    width: 5%;
+}
+.none {
+    cursor: none;
+    border: 1px solid black;
+    width: 5%;
+}
+.not-allowed {
+    cursor: not-allowed;
+    border: 1px solid black;
+    width: 5%;
+}
+.pointer {
+    cursor: pointer;
+    border: 1px solid black;
+    width: 5%;
+}
+.progress {
+    cursor: progress;
+    border: 1px solid black;
+    width: 5%;
+}
+.row-resize {
+    cursor: row-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.s-resize {
+    cursor: s-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.se-resize {
+    cursor: se-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.sw-resize {
+    cursor: sw-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.text {
+    cursor: text;
+    border: 1px solid black;
+    width: 5%;
+}
+.url {
+    cursor: url(myBall.cur),auto;
+    border: 1px solid black;
+    width: 5%;
+}
+.w-resize {
+    cursor: w-resize;
+    border: 1px solid black;
+    width: 5%;
+}
+.wait {
+    cursor: wait;
+    border: 1px solid black;
+    width: 5%;
+}
+.zoom-in {
+    cursor: zoom-in;
+    border: 1px solid black;
+    width: 5%;
+}
+.zoom-out {
+    cursor: zoom-out;
+    border: 1px solid black;
+    width: 5%;
+}
+
+
+.shadow1{
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: brown;
+    box-shadow: 20px 10px;
+}
+.shadow2{
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: brown;
+    box-shadow: 20px 10px 5px;
+}
+.shadow3{
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: brown;
+    box-shadow: 20px 10px 5px 20px;
+}
+.shadow4{
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: brown;
+    box-shadow: 20px 10px 5px 20px gray inset;
+}
+.shadow5{
+    margin: 30px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: brown;
+    box-shadow: 20px 10px;
+}
+.position1{
+    border: 5px solid green;
+    position: static;
+    margin: 10px;
+}
+.position2{
+    border: 5px solid green;
+    position: relative;
+    margin: 10px;
+}
+.position2{
+    border: 5px solid green;
+    margin: 10px;
+    position: ;
+    
+}
+.sticky{
+    position: sticky;
+}
